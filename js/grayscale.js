@@ -100,6 +100,13 @@ require([
             zoom: 16
         });
 
+        var _2mmmap = new Map("twocourseMap", {
+            basemap: "satellite",
+            center:[-70.939625,42.860688],
+            zoom: 16
+        });
+        
+
         //Query to get the attributes
         var q = new Query();
         q.where = "1=1";
